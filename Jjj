@@ -1,0 +1,13 @@
+function lol()
+
+local door = game:GetService("ReplicatedStorage").GameData.LatestRoom.Value
+
+workspace.CurrentRooms:FindFirstChild(door).Door.ClientOpen:FireServer()
+
+wait(0.05)
+
+lol()
+
+end
+
+lol()
